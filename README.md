@@ -14,6 +14,7 @@
 <p align="center">
   <img src="1.PNG" alt="Screenshot" width="900">
 </p>
+---
 <p align="center">
   <img src="2.PNG" alt="Screenshot" width="900">
 </p>
