@@ -7,6 +7,8 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
+🔗 **Live Demo:** [https://kazi-abdullah-al-hasnaine.github.io/Gantt-Bang-A_Gantt_Chart_Maker/](https://kazi-abdullah-al-hasnaine.github.io/Gantt-Bang-A_Gantt_Chart_Maker/)
+
 ## ✨ Features
 
 ### Core Functionality
@@ -43,7 +45,7 @@
 
 Simply visit the live demo:
 ```
-https://yourusername.github.io/gantt-bang/
+https://kazi-abdullah-al-hasnaine.github.io/Gantt-Bang-A_Gantt_Chart_Maker/
 ```
 
 ### Option 2: Download and Use Locally
@@ -52,8 +54,8 @@ https://yourusername.github.io/gantt-bang/
 
 **Using Git:**
 ```bash
-git clone https://github.com/yourusername/gantt-bang.git
-cd gantt-bang
+git clone https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker.git
+cd Gantt-Bang-A_Gantt_Chart_Maker
 ```
 
 **Using Download:**
@@ -85,7 +87,7 @@ That's it! No installation, no dependencies, no build process required.
 ## 📁 Project Structure
 
 ```
-gantt-bang/
+Gantt-Bang-A_Gantt_Chart_Maker/
 │
 ├── index.html          # Main HTML file
 ├── styles.css          # All styling and themes
@@ -209,7 +211,7 @@ Perfect for:
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/yourusername/gantt-bang.git
+   git remote add origin https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker.git
    git push -u origin main
    ```
 
@@ -218,7 +220,7 @@ Perfect for:
    - Navigate to **Pages** section
    - Under **Source**, select **main** branch
    - Click **Save**
-   - Your site will be live at `https://yourusername.github.io/gantt-bang/`
+   - Your site will be live at `https://kazi-abdullah-al-hasnaine.github.io/Gantt-Bang-A_Gantt_Chart_Maker/`
 
 ### Deploy to Other Platforms
 
@@ -235,7 +237,7 @@ Since Gantt-Bang is a static site, it can be deployed anywhere:
 
 Contributions are welcome! Here's how you can help:
 
-1. **Fork the repository**
+1. **Fork the repository** - [Fork Gantt-Bang](https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker/fork)
 2. **Create a feature branch** (`git checkout -b feature/AmazingFeature`)
 3. **Commit your changes** (`git commit -m 'Add AmazingFeature'`)
 4. **Push to the branch** (`git push origin feature/AmazingFeature`)
@@ -267,7 +269,7 @@ Contributions are welcome! Here's how you can help:
 
 ## 🐛 Known Issues
 
-None at the moment! Found a bug? [Open an issue](https://github.com/yourusername/gantt-bang/issues)
+None at the moment! Found a bug? [Open an issue](https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker/issues)
 
 ---
 
@@ -306,7 +308,7 @@ A: No hard limit, but performance may vary with hundreds of tasks depending on y
 Have questions or suggestions? Feel free to:
 - Open an issue on GitHub
 - Submit a pull request
-- Contact: your.email@example.com
+- Repository: [Gantt-Bang](https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker)
 
 ---
 
@@ -320,6 +322,6 @@ If you find Gantt-Bang useful, please consider giving it a star ⭐ on GitHub!
 
 **Made with ❤️ for project managers everywhere**
 
-[View Demo](https://yourusername.github.io/gantt-bang/) • [Report Bug](https://github.com/yourusername/gantt-bang/issues) • [Request Feature](https://github.com/yourusername/gantt-bang/issues)
+[View Demo](https://kazi-abdullah-al-hasnaine.github.io/Gantt-Bang-A_Gantt_Chart_Maker/) • [Report Bug](https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker/issues) • [Request Feature](https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker/issues)
 
 </div>
