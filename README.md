@@ -14,7 +14,7 @@
 <p align="center">
   <img src="1.PNG" alt="Screenshot" width="900">
 </p>
-### Use Online
+Downloaded PNG
 <p align="center">
   <img src="2.png" alt="Screenshot" width="900">
 </p>
