@@ -16,7 +16,7 @@
 </p>
 ---
 <p align="center">
-  <img src="2.PNG" alt="Screenshot" width="900">
+  <img src="2.png" alt="Screenshot" width="900">
 </p>
 
 ## ✨ Features
