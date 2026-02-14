@@ -352,6 +352,24 @@ function renderTimeline() {
     wrapper.innerHTML = html;
     
     initDrag();
+    adjustRowHeights();
+}
+
+// ==================== DYNAMIC ROW HEIGHTS ====================
+function adjustRowHeights() {
+    // Use setTimeout to ensure DOM is rendered
+    setTimeout(() => {
+        document.querySelectorAll('.timeline-row-bars').forEach(rowBars => {
+            const taskBar = rowBars.querySelector('.task-bar');
+            if (taskBar) {
+                // Measure the actual rendered height of the task bar
+                const barHeight = taskBar.offsetHeight;
+                // Set the container to match (with padding)
+                rowBars.style.height = barHeight + 'px';
+                rowBars.style.minHeight = barHeight + 'px';
+            }
+        });
+    }, 0);
 }
 
 // ==================== DRAG ====================
