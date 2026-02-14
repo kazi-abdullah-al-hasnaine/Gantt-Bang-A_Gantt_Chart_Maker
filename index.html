@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Gantt-Bang - A modern, interactive online Gantt Chart maker for project timeline management">
-    <meta name="author" content="Gantt-Bang">
-    <meta name="keywords" content="gantt chart, project management, timeline, task management, online gantt">
+    <meta name="description" content="Gantt-Bang - A modern, interactive online Gantt Chart maker">
+    <meta name="keywords" content="gantt chart, project management, timeline, task management">
     <title>Gantt-Bang - Online Gantt Chart Maker</title>
     
     <!-- Favicon -->
@@ -39,6 +38,7 @@
                     </div>
                     <div class="form-group">
                         <label>Task Color</label>
+                        <div class="color-presets" id="colorPresets"></div>
                         <div class="color-picker-wrapper">
                             <input type="color" id="taskColor" value="#6366f1">
                             <input type="text" id="taskColorHex" value="#6366f1" readonly>
@@ -71,9 +71,9 @@
                     <div class="toolbar-group">
                         <span class="toolbar-label">Theme:</span>
                         <select class="select-box" id="themeSelector">
-                            <option value="dark">Dark</option>
+                             <option value="dark">Dark</option>
                             <option value="light">Light</option>
-                            
+                           
                             <option value="minimal">Professional Minimal</option>
                             <option value="research">Research Mode</option>
                         </select>
@@ -81,12 +81,8 @@
                 </div>
                 <div class="toolbar-right">
                     <button class="btn-toolbar" id="exportPNGBtn">
-                        <span>🖼️</span>
-                        <span>Export PNG</span>
-                    </button>
-                    <button class="btn-toolbar" id="exportPDFBtn">
-                        <span>📄</span>
-                        <span>Export PDF</span>
+                        
+                        <span>Download PNG</span>
                     </button>
                 </div>
             </div>
@@ -94,15 +90,14 @@
             <!-- Timeline Container -->
             <div class="timeline-container" id="timelineContainer">
                 <div class="timeline-wrapper" id="timelineWrapper">
-                    <!-- Timeline will be rendered here dynamically -->
+                    <!-- Timeline will be rendered here -->
                 </div>
             </div>
         </main>
     </div>
 
-    <!-- External Libraries for Export Functionality -->
+    <!-- HTML2Canvas for Export -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     
     <!-- Main Application Script -->
     <script src="script.js"></script>

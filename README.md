@@ -1,86 +1,85 @@
-# 📊 Gantt-Bang
+# 📋 Gantt-Bang
 
-**Gantt-Bang** is a modern, interactive online Gantt Chart maker for project timeline management. Built with pure HTML, CSS, and vanilla JavaScript - no frameworks required!
+**Gantt-Bang** is a simple, modern online Gantt Chart maker. Built with pure HTML, CSS, and vanilla JavaScript.
 
-![Gantt-Bang Demo](https://img.shields.io/badge/Status-Active-success)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
 🔗 **Live Demo:** [https://kazi-abdullah-al-hasnaine.github.io/Gantt-Bang-A_Gantt_Chart_Maker/](https://kazi-abdullah-al-hasnaine.github.io/Gantt-Bang-A_Gantt_Chart_Maker/)
 
+---
+
+
+<p align="center">
+  <img src="1.PNG" alt="Screenshot" width="900">
+</p>
+<p align="center">
+  <img src="2.PNG" alt="Screenshot" width="900">
+</p>
+
 ## ✨ Features
 
-### Core Functionality
-- ✅ **Create, Edit & Delete Tasks** - Full CRUD operations
-- ✅ **Interactive Timeline** - Visual project timeline representation
+- ✅ **Create & Edit Tasks** - Add, modify, and delete tasks
 - ✅ **Drag to Move** - Drag task bars to change dates
-- ✅ **Drag to Resize** - Resize tasks from left or right edges
-- ✅ **Auto-Scaling Timeline** - Switch between Day, Week, and Month views
-- ✅ **Custom Task Colors** - Color-code your tasks with visual color picker
-- ✅ **Today Indicator** - Highlights current date on timeline
-
-### Themes
-- 🌞 **Light** - Clean, bright interface
-- 🌙 **Dark** - Easy on the eyes for late-night planning
-- ⚪ **Professional Minimal** - Sleek, distraction-free design
-- 📚 **Research Mode** - Warm, paper-like aesthetic
-
-### Export Options
-- 🖼️ **Export to PNG** - High-resolution image export
-- 📄 **Export to PDF** - Professional PDF documents
-
-### Technical Features
-- 💾 **Local Storage** - Your data persists in browser
-- 🎨 **Smooth Animations** - Polished user experience
-- 📱 **Responsive Design** - Works on desktop and tablets
-- ⚡ **100% Client-Side** - No server required, works offline
-- 🚀 **Fast & Lightweight** - Optimized performance
+- ✅ **Drag to Resize** - Resize tasks from edges
+- ✅ **Timeline Views** - Day, Week, and Month views
+- ✅ **12 Color Presets** - Professional colors ready to use
+- ✅ **Custom Colors** - Pick any color you want
+- ✅ **4 Themes** - Light, Dark, Minimal, Research
+- ✅ **PNG Export** - Download high-quality images
+- ✅ **Auto-Save** - Your data persists in browser
+- ✅ **100% Offline** - Works without internet
 
 ---
 
-## 🎯 Quick Start
+## 🚀 Quick Start
 
-### Option 1: Use Online (GitHub Pages)
+### Use Online
 
-Simply visit the live demo:
-```
-https://kazi-abdullah-al-hasnaine.github.io/Gantt-Bang-A_Gantt_Chart_Maker/
-```
+Just visit: [https://kazi-abdullah-al-hasnaine.github.io/Gantt-Bang-A_Gantt_Chart_Maker/](https://kazi-abdullah-al-hasnaine.github.io/Gantt-Bang-A_Gantt_Chart_Maker/)
 
-### Option 2: Download and Use Locally
+### Download and Use Locally
 
-#### Step 1: Download the Project
+1. **Download the files:**
+   ```bash
+   git clone https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker.git
+   ```
 
-**Using Git:**
-```bash
-git clone https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker.git
-cd Gantt-Bang-A_Gantt_Chart_Maker
-```
+2. **Open `index.html` in your browser**
+   - Double-click the file
+   - Or drag it into your browser
 
-**Using Download:**
-1. Click the green **"Code"** button on GitHub
-2. Select **"Download ZIP"**
-3. Extract the ZIP file to your desired location
+That's it! No installation needed.
 
-#### Step 2: Open in Browser
+---
 
-Simply open `index.html` in any modern web browser:
+## 📖 How to Use
 
-**On Windows:**
-- Double-click `index.html`
-- Or right-click → Open with → Your browser
+### Adding Tasks
 
-**On Mac:**
-- Double-click `index.html`
-- Or right-click → Open With → Your browser
+1. Enter task name
+2. Select start and end dates
+3. Pick a color (preset or custom)
+4. Click "Add Task"
 
-**On Linux:**
-```bash
-xdg-open index.html
-```
+### Editing Tasks
 
-That's it! No installation, no dependencies, no build process required.
+- **Edit**: Click the ✏️ icon
+- **Delete**: Click the 🗑️ icon
+- **Move**: Drag the task bar
+- **Resize**: Drag the left or right edge
+
+### Changing Views
+
+- **View dropdown**: Switch between Day, Week, Month
+- **Theme dropdown**: Switch between 4 themes
+
+### Exporting
+
+- Click **"Download PNG"** button
+- High-quality image downloads automatically
+- White background for clarity
 
 ---
 
@@ -89,239 +88,150 @@ That's it! No installation, no dependencies, no build process required.
 ```
 Gantt-Bang-A_Gantt_Chart_Maker/
 │
-├── index.html          # Main HTML file
-├── styles.css          # All styling and themes
+├── index.html          # Main HTML
+├── styles.css          # All styles
 ├── script.js           # Application logic
 └── README.md           # This file
 ```
 
-### File Breakdown
-
-| File | Description |
-|------|-------------|
-| `index.html` | Main application structure and HTML markup |
-| `styles.css` | Complete styling including all 4 themes and responsive design |
-| `script.js` | Core application logic: task management, drag handlers, exports |
-
 ---
 
-## 🎨 Usage Guide
+## 🎨 Color Presets
 
-### Adding Tasks
+12 professional colors included:
 
-1. **Enter Task Name** - Give your task a descriptive name
-2. **Set Start Date** - Choose when the task begins
-3. **Set End Date** - Choose when the task ends
-4. **Pick a Color** - Select a color for easy identification
-5. **Click "Add Task"** - Task appears in both sidebar and timeline
+- 🔵 Indigo, Blue, Cyan
+- 🟢 Teal, Green, Lime
+- 🟡 Yellow, Orange
+- 🔴 Red, Pink
+- 🟣 Purple, Violet
 
-### Editing Tasks
-
-**Method 1 - Edit Button:**
-- Click the ✏️ edit icon next to any task
-- Modify details in the form
-- Click "Update Task"
-
-**Method 2 - Drag on Timeline:**
-- **Drag the task bar** to move the entire task
-- **Drag left edge** to change start date
-- **Drag right edge** to change end date
-
-### Deleting Tasks
-
-- Click the 🗑️ delete icon next to any task
-- Confirm deletion in the popup
-
-### Changing View
-
-Use the **View** dropdown to switch between:
-- **Day View** - See daily progress
-- **Week View** - Weekly overview (default)
-- **Month View** - High-level monthly planning
-
-### Switching Themes
-
-Use the **Theme** dropdown to select:
-- Light
-- Dark
-- Professional Minimal
-- Research Mode
-
-### Exporting Your Chart
-
-**Export as PNG:**
-- Click the **"Export PNG"** button
-- High-resolution image downloads automatically
-
-**Export as PDF:**
-- Click the **"Export PDF"** button
-- PDF document downloads automatically
-
----
-
-## 🛠️ Technical Details
-
-### Dependencies
-
-Gantt-Bang uses two external libraries for export functionality:
-
-- **html2canvas** (v1.4.1) - For rendering HTML to canvas
-- **jsPDF** (v2.5.1) - For PDF generation
-
-Both are loaded from CDN, so an internet connection is required for exports only.
-
-### Browser Compatibility
-
-| Browser | Minimum Version |
-|---------|----------------|
-| Chrome | 90+ |
-| Firefox | 88+ |
-| Safari | 14+ |
-| Edge | 90+ |
-
-### Storage
-
-- Uses `localStorage` to persist data
-- Storage keys: `ganttBangTasks`, `ganttBangTheme`, `ganttBangViewScale`
-- Data is stored locally in your browser
-- Clear browser data to reset the application
+Plus unlimited custom colors!
 
 ---
 
 ## 🎯 Use Cases
 
-Perfect for:
-- 📊 **Project Management** - Plan and track project timelines
-- 📚 **Research Planning** - Organize research phases
-- 🎓 **Academic Projects** - Track semester assignments
-- 💼 **Business Planning** - Visualize business milestones
-- 🏗️ **Construction Planning** - Coordinate construction phases
-- 📝 **Content Calendars** - Plan content publication schedules
-- 🎯 **Goal Tracking** - Visualize personal goals and deadlines
+- Project Management
+- Research Planning
+- Academic Projects
+- Business Planning
+- Content Calendars
+- Goal Tracking
+- Event Planning
 
 ---
 
-## 🚀 Deployment
+## 🌐 Browser Support
 
-### Deploy to GitHub Pages
+Works on all modern browsers:
 
-1. **Create a GitHub Repository**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker.git
-   git push -u origin main
-   ```
-
-2. **Enable GitHub Pages**
-   - Go to repository **Settings**
-   - Navigate to **Pages** section
-   - Under **Source**, select **main** branch
-   - Click **Save**
-   - Your site will be live at `https://kazi-abdullah-al-hasnaine.github.io/Gantt-Bang-A_Gantt_Chart_Maker/`
-
-### Deploy to Other Platforms
-
-Since Gantt-Bang is a static site, it can be deployed anywhere:
-
-- **Netlify**: Drag and drop the folder
-- **Vercel**: Import the GitHub repository
-- **GitHub Pages**: Follow instructions above
-- **Any Web Server**: Upload files to public directory
+- Chrome 90+
+- Firefox 88+
+- Safari 14+
+- Edge 90+
 
 ---
 
-## 🤝 Contributing
+## 💾 Data Storage
 
-Contributions are welcome! Here's how you can help:
-
-1. **Fork the repository** - [Fork Gantt-Bang](https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker/fork)
-2. **Create a feature branch** (`git checkout -b feature/AmazingFeature`)
-3. **Commit your changes** (`git commit -m 'Add AmazingFeature'`)
-4. **Push to the branch** (`git push origin feature/AmazingFeature`)
-5. **Open a Pull Request**
-
-### Ideas for Contributions
-- Add more themes
-- Implement task dependencies
-- Add task progress indicators
-- Create import/export JSON functionality
-- Add print stylesheet
-- Implement task search/filter
-- Add keyboard shortcuts
-- Mobile optimization improvements
+- Stored locally in your browser (localStorage)
+- Never leaves your computer
+- Survives browser restarts
+- Clear browser data to reset
 
 ---
 
-## 📝 Changelog
+## 📸 Export Quality
 
-### Version 1.0.0 (Initial Release)
-- ✅ Core Gantt chart functionality
-- ✅ Drag and drop support
-- ✅ 4 professional themes
-- ✅ PNG/PDF export
-- ✅ Responsive design
-- ✅ Local storage persistence
-
----
-
-## 🐛 Known Issues
-
-None at the moment! Found a bug? [Open an issue](https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker/issues)
+- **Format**: PNG
+- **Resolution**: 2x scale (high-quality)
+- **Background**: White (for clarity)
+- **Text**: Bold and crisp
+- **Colors**: True to original
 
 ---
 
 ## ❓ FAQ
 
 **Q: Does this work offline?**
-A: Yes! Once loaded, it works completely offline. Only the export features require internet for the CDN libraries.
+A: Yes! After first load, it works 100% offline.
 
-**Q: Where is my data stored?**
-A: All data is stored locally in your browser using localStorage. Your data never leaves your computer.
+**Q: Where is my data?**
+A: Stored in your browser (localStorage). It never leaves your computer.
 
-**Q: Can I use this commercially?**
+**Q: Can I export to PDF?**
+A: Currently only PNG. You can convert PNG to PDF using free online tools.
+
+**Q: Why white background in export?**
+A: White ensures maximum readability and professional appearance.
+
+**Q: Can I use this for commercial projects?**
 A: Yes! Use it however you like.
 
-**Q: How do I clear all my data?**
-A: Clear your browser's localStorage or use your browser's developer tools to delete the `ganttBang*` keys.
+---
 
-**Q: Can I customize the colors?**
-A: Yes! Each task can have its own custom color selected via the color picker.
+## 🚀 Deployment
 
-**Q: Is there a limit to the number of tasks?**
-A: No hard limit, but performance may vary with hundreds of tasks depending on your device.
+### GitHub Pages
+
+1. Push to GitHub
+2. Go to Settings → Pages
+3. Select main branch
+4. Click Save
+5. Done!
+
+Works on: Netlify, Vercel, or any static hosting.
 
 ---
 
-## 🙏 Acknowledgments
+## 🤝 Contributing
 
-- Built with pure vanilla JavaScript - no frameworks!
-- Icons: Emoji
-- Export functionality: html2canvas & jsPDF
+Contributions welcome!
 
----
-
-## 📧 Contact
-
-Have questions or suggestions? Feel free to:
-- Open an issue on GitHub
-- Submit a pull request
-- Repository: [Gantt-Bang](https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker)
+1. Fork the repo
+2. Create a feature branch
+3. Commit your changes
+4. Push and create a Pull Request
 
 ---
 
-## 🌟 Star This Repository
+## 📝 Changelog
 
-If you find Gantt-Bang useful, please consider giving it a star ⭐ on GitHub!
+### Version 2.0.0 (Current)
+- 🎯 Complete rewrite for simplicity
+- ✅ Reliable PNG export
+- 🎨 Better text contrast
+- 💪 Extra bold fonts (900 weight)
+- 🚀 Faster and lighter
+- 📦 Removed PDF (simpler is better)
+
+### Version 1.0.0
+- Initial release
+
+---
+
+## 🐛 Issues?
+
+Found a bug? [Report it here](https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker/issues)
+
+---
+
+## 🙏 Credits
+
+Built with:
+- Pure HTML, CSS, JavaScript
+- html2canvas (for PNG export)
+- No frameworks needed!
 
 ---
 
 <div align="center">
 
-**Made with ❤️ for project managers everywhere**
+**Simple. Reliable. Effective.**
 
 [View Demo](https://kazi-abdullah-al-hasnaine.github.io/Gantt-Bang-A_Gantt_Chart_Maker/) • [Report Bug](https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker/issues) • [Request Feature](https://github.com/kazi-abdullah-al-hasnaine/Gantt-Bang-A_Gantt_Chart_Maker/issues)
+
+Made with ❤️ for project managers
 
 </div>
